@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <title>Base de datos semantica</title>
+</head>
+
+<body>
+    <header id="inicio">
+        <h1>Introducción a las bases de datos.</h1>
+        <nav>
+            <ul>
+                <li><a href="#conceptip">Concepto y tipos</a></li>
+                <li><a href="#estbasrel">Estructura de datos</a></li>
+                <li><a href="#reltablas">Relaciones</a></li>
+                <li><a href="#recursos">Recursos de interés</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section><h2 id="conceptip">Concepto y tipos de bases de datos.</h2>
+        <article>
+            <h3>Bases de datos relacionales (RDBMS)</h3>
+            <p>Las Bases de datos Relacionales (RDBMS) son sistemas de organización de información basados en el modelo
+                relacional, donde los datos se estructuran de forma lógica y predecible.</p>
+
+            <p>En este tipo de sistemas, la información se almacena en tablas independientes
+                (también llamadas relaciones), las cuales representan entidades del mundo real, como "Clientes" o "Pedidos".</p>
+            
+            <p>La gran ventaja de las RDBMS es su capacidad para conectar e interactuar con distintas tablas mediante relaciones
+                 matemáticas y lógicas, garantizando la integridad y consistencia de los datos. Entre los ejemplos más comunes
+                 y utilizados en la industria tecnológica se encuentran <mark>MySQL</mark>, <mark>PostgreSQL</mark>, <mark>Oracle Database</mark>
+                y <mark>Microsoft SQL Server</mark>.</p>
+        </article>
+
+        <article>
+            <h3>Bases de datos no relacionales (NoSQL)</h3>
+                <p>Las bases de datos No Relacionales (NoSQL) son sistemas de gestión de almacenamiento de información diseñados 
+                para manejar grandes volúmenes de datos que no se adaptan al modelo tradicional de tablas y columnas de las bases
+                de datos relacionales (SQL).</p>
+                <p>Su principal ventaja es la flexibilidad, ya que permiten trabajar con almacenamiento no estructurado o 
+                semiestructurado, eliminando la necesidad de un esquema rígido y fijo.</p>
+        </article>
+    </section><br>
+
+    <section><h2 id="estbasrel">Estructura de una base de datos relacional.</h2>
+        <article>
+            <h3>Componentes fundamentales</h3>
+                <p>Para definir la estructura dentro de un modelo relacional se emeplean los siguientes elementos:</p>
+
+                <ul>
+                    <li><b>Tablas (Entidades)</b>: Estructuras donde se organizan los datos.</li>
+                    <li><b>Campos (Atributos)</b>: Columnas que definen la tipología de información.</li>
+                    <li><b>Registros (Tuplas)</b> Filas que contienen cada instancia concreta de datos.</li>
+                    <li><b>Claves primarias (Primary Keys)</b>: Identificadores únicos de cada registro.</li>
+                </ul>
+        </article>
+    </section><br>
+
+    <section><h2 id="reltablas">Relaciones entre tablas</h2>
+         <h3>Cardinalidades y llaves foraneas</h3>
+            <article>
+                <ul>
+                    <li>Una <b>relación 1:1 (uno a uno)</b> en SQL ocurre cuando un registro de una tabla A se relaciona con un 
+                    único registro de una tabla B, y viceversa.</li>
+
+                    <li>Una <b> relación 1:N (uno a muchos)</b> en bases de datos ocurre cuando un registro de una tabla principal 
+                    (el "uno") puede estar vinculado con múltiples registros en una tabla secundaria (el "muchos"), 
+                    pero cada registro de la tabla secundaria pertenece a uno solo de la tabla principal.</li>
+
+                    <li>Una <b>relación N:M (muchos a muchos)</b> en bases de datos ocurre cuando un registro de una tabla (Tabla A) 7
+                    puede estar asociado con varios registros de otra tabla (Tabla B), y viceversa.</li>
+
+                    <li>Una <b>clave foránea (foreign key)</b> en SQL es una columna (o conjunto de columnas) en una tabla que apunta a la clave 
+                    primaria (primary key) o restricción única (unique) de otra tabla para conectar ambas mediante una relación lógica.</li>
+                </ul>
+            </article>
+    </section><br>
+
+    <aside id="recursos"><h2>Recursos de Interés y Contenido Complementario</h2>
+  <section>
+    <h3>Glosario de Términos</h3>
+    <dl>
+      <dt><b>SQL</b></dt>
+      <dd>Structured Query Language: Lenguaje estándar para gestionar y manipular bases de datos relacionales.</dd>
+
+      <dt><b>SGBD</b></dt>
+      <dd>Sistema de Gestión de Bases de Datos: Software que permite almacenar, modificar y extraer información de una base de datos.</dd>
+
+    </dl>
+  </section>
+
+  <section>
+    <h3>Enlaces de Interés</h3>
+    <ul>
+      <li><a href="https://mysql.com">Web oficial de MySQL</a></li>
+      <li><a href="https://www.postgresql.org/">Web oficial de PostgreSQL</a></li>
+      <li><a href="https://www.mongodb.com/">Web oficial de MongoDB</a></li>
+    </ul>
+  </section>
+</aside><br>
+    </main>
+
+    <footer>
+        <p>Hecho por: <b>Javier Gabarrón.</b>
+        Curso academico: 1ºASIR
+        Todos los derechos reservados.</p>
+        <a href="#inicio">Pincha aquí para volver al inicio.</a>
+    </footer>
+</body>
