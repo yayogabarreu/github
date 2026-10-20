@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejercicio de formularios</h1>
+    <h2>Formulario 1</h2>
+    <form>
+        <fieldset>
+        <legend>Completar</legend>
+        <label for="color-input">Elija un color:</label>
+        <input type="color" id="color-input" name="color"><br>
+        <textarea name="comentarios" rows="5" cols="53" placeholder="Por favor, escriba aquí"></textarea><br>
+        <label for="lenguaje"></label>
+        <select name="lenguaje" id="lenguaje">
+            <option value="Java">Java</option>
+            <option value="python">Python</option>
+            <option value="html">HTML</option>
+            <option value="visual_basic">Visual Basic</option>
+        </select><br>
+        <label>
+            <input type="checkbox" name="ciclo" value="cicloasir"> ASIR
+        </label>
+        <label>
+            <input type="checkbox" name="ciclo" value="ciclodam"> DAM
+        </label>
+        <label>
+         <input type="checkbox" name="ciclo" value="ciclodaw"> DAW
+        </label>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Rellene las opciones siguientes</legend>
+            <label for="date-input">Elija una fecha:</label>
+            <input type="date" id="date-input" name="date"><br>
+            <label for="file-input">Elija un fichero:</label>
+            <input type="file" id="file-input" name="file"><br>
+            <label for="ciclo"></label>
+            <select name="ciclo" id="ciclo" multiple>
+                <option value="smir">SMIR</option>
+                <option value="asir">ASIR</option>
+                <option value="dam">DAM</option>
+                <option value="daw">DAW</option>
+            </select>
+        </fieldset>
+    </form>
+
+    <h2>Formulario 2</h2>
+    <form>
+        <fieldset>
+            <legend>Rellenar</legend>
+        <input type="radio" name="asignatura" value="asignaturalengua"> Lengua <br>
+        <input type="radio" name="asignatura" value="asignaturamatematicas"> Matemáticas <br>
+        <input type="radio" name="asignatura" value="asignaturahistoria"> Historia <br>
+        <input type="radio" name="asignatura" value="asignaturageografia"> Geografía <br><br>
+
+        <label for="editor">
+        <input type="checkbox" name="editor" value="editornotepad"> Notepad
+        <input type="checkbox" name="editor" value="editoremacs"> Emacs
+        <input type="checkbox" name="editor" value="editorotro"> Otro <br><br>
+        </label>
+
+        <label for="texto">
+        <textarea name="texto" rows="5" cols="59" placeholder="Escriba aquí, por favor"></textarea><br>
+        </label>
+
+        <label for="procesador">
+        <select name="procesador" id="procesador">
+            <option value="amd">AMD</option>
+            <option value="intel_i5">Intel i5</option>
+            <option value="intel_i7">Intel i7</option>
+        </select>
+        </label>
+        </fieldset>
+    </form>
+    
+    <h2>Formulario 3</h2>
+  <form>
+    <fieldset>
+        <legend>Rellenar</legend>
+        
+        <input type="radio" name="asignatura" value="asignaturageografia"> Geografía
+        <input type="radio" name="asignatura" value="asignaturalengua"> Lengua
+        <input type="radio" name="asignatura" value="asignaturamatematicas"> Matemáticas
+        <input type="radio" name="asignatura" value="asignaturahistoria"> Historia <br><br>
+
+
+        <label for="time-input">Elija una hora:</label>
+        <input type="time" id="time-input" name="time"><br><br>
+
+        <label><input type="checkbox" name="idioma" value="idiomaespanol"> Español</label><br>
+        <label><input type="checkbox" name="idioma" value="idiomaingles"> Inglés</label><br>
+        <label><input type="checkbox" name="idioma" value="idiomaaleman"> Alemán</label><br>
+        <label><input type="checkbox" name="idioma" value="idiomafrances"> Francés</label><br><br>
+
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos"><br>
+
+    </fieldset>
+    </form>
+
+<footer>
+    <p>Hecho por: <b>Javier Gabarrón.</b>
+    Curso academico: 1ºASIR</p>
+    <a href="../index.html">Pincha aquí para volver al portfolio.</a>
+</footer>
+</body>
+</html>
