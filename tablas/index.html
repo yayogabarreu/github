@@ -6,8 +6,10 @@
     <title>Mis primeras tablas</title>
     <style>
         table, td, th, tr{
-            border: 1px solid red;
+            border: 2px solid red;
             margin: 20px;
+            border-collapse: collapse ;
+            text-align: center;
         }
         footer{
             text-align: center;
@@ -72,8 +74,31 @@
         </tr>
     </table>
 
+    <h2>Anidar tablas</h2>
+    <table border="1">
+        <tr>
+            <td>1</td>
+            <td>
+                <table border="1">
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table>
+
     <footer>
         <p>Autor: Javier Gabarrón</p>
-        <p>Pincha <a href="/github/index.html">aquí</a> para volver al portfolio.</p>
+        <p>Pincha <a href="../index.html">aquí</a> para volver al portfolio.</p>
     </body>
 </html>
