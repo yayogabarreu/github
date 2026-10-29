@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechOps & SysAdmin Blog</title>
+</head>
+<body>
+    <header id="header">
+        <h1>TechOps & SysAdmin Blog</h1>
+        <p>Soluciones a problemas técnicos reales, guías de automatización y mejores prácticas de infraestructura.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#noticia-1">Noticia 1</a></li>
+            <li><a href="#noticia-2">Noticia 2</a></li>
+            <li><a href="#noticia-3">Noticia 3</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- NOTICIA 1 -->
+        <article id="noticia-1">
+            <header>
+                <h2>Lanzamiento urgente del parche de seguridad Kernel-6.12 para mitigar vulnerabilidad Zero-Day</h2>
+                <p>Publicado el <time datetime="2026-10-27">27 de octubre de 2026</time> por <strong>Javier Gabarrón</strong></p>
+            </header>
+
+            <section>
+                <h3>Descripción del problema</h3>
+                <p>Se ha detectado una vulnerabilidad crítica de desbordamiento de búfer en el subsistema de red del kernel Linux. Esta falla permite a un atacante remoto no autenticado ejecutar código arbitrario con privilegios de superusuario (root) en sistemas no parcheados.</p>
+                <p>
+                    <a href="https://s2grupo.es/vulnerabilidades-criticas-linux-2026/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Linux-para-seguridad-y-privacidad.jpg" height="300" alt="Ilustración sobre seguridad y código del sistema operativo Linux">
+                    </a>
+                </p>
+            </section>
+
+            <section>
+                <h3>Solución aplicada y recomendaciones</h3>
+                <p>Los administradores de sistemas deben aplicar el parche de actualización inmediata mediante los gestores de paquetes oficiales o recompilar el kernel a la versión estable más reciente.</p>
+                <p>
+                    <a href="https://www.reddit.com/r/linux4noobs/comments/zftf5d/sudo_apt_update_sudo_apt_grade_explanation_im/?tl=es-es" target="_blank" rel="noopener noreferrer">
+                        <img src="img/gabriel-heinzer-4Mw7nkQDByk-unsplash.jpg" height="300" alt="Ilustración sobre línea de comandos en Linux">
+                    </a>
+                </p>
+            </section>
+
+            <section>
+                <fieldset>
+                    <legend>Deja tu comentario</legend>
+                    <form action="#" method="post">
+                        <div>
+                            <label for="nombre-1">Nombre:</label>
+                            <input type="text" id="nombre-1" name="nombre" required>
+                        </div><br>
+                        <div>
+                            <label for="email-1">Correo electrónico:</label>
+                            <input type="email" id="email-1" name="email" required>
+                        </div><br>
+                        <div>
+                            <label for="comentario-1">Comentario:</label>
+                            <textarea id="comentario-1" name="comentario" rows="4" required></textarea>
+                        </div><br>
+                        <div>
+                            <input type="checkbox" id="politica-1" name="politica" required>
+                            <label for="politica-1">Acepto la política de privacidad</label>
+                        </div><br>
+                        <button type="submit">Enviar comentario</button>
+                    </form>
+                </fieldset>
+            </section>
+        </article>
+
+        <hr>
+
+        <!-- NOTICIA 2 -->
+        <article id="noticia-2">
+            <header>
+                <h2>Migración exitosa de la infraestructura central a clústeres de Kubernetes en AWS</h2>
+                <p>Publicado el <time datetime="2026-10-27">27 de octubre de 2026</time> por <strong>Javier Gabarrón</strong></p>
+            </header>
+
+            <section>
+                <h3>Motivación de la arquitectura</h3>
+                <p>Debido al rápido crecimiento del tráfico, la arquitectura monolítica anterior resultaba difícil de escalar. Se decidió migrar la infraestructura hacia microservicios en contenedor utilizando Docker y orquestados mediante Amazon EKS (Kubernetes).</p>
+                <p>
+                    <a href="https://aws.amazon.com/es/kubernetes/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/portatilvirus.png" height="300" alt="Diagrama de despliegue de Kubernetes en Amazon Web Services">
+                    </a>
+                </p>
+            </section>
+
+            <section>
+                <h3>Resultados y beneficios obtenidos</h3>
+                <p>El despliegue en la nube ha permitido reducir los tiempos de inactividad a cero gracias a los rolling updates. Además, la capacidad de autoescalado horizontal optimizó los costes operativos en un 35% durante las horas de menor demanda.</p>
+                <p>
+                    <a href="https://www.itmastersmag.com/ciberseguridad/parches-de-seguridad-que-son-como-funcionan-y-por-que-son-esenciales-en-ciberseguridad/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/images.jpg" height="300" alt="Imagen de métricas en la nube">
+                    </a>
+                </p>
+            </section>
+
+            <section>
+                <fieldset>
+                    <legend>Deja tu comentario</legend>
+                    <form action="#" method="post">
+                        <div>
+                            <label for="nombre-2">Nombre:</label>
+                            <input type="text" id="nombre-2" name="nombre" required>
+                        </div><br>
+                        <div>
+                            <label for="email-2">Correo electrónico:</label>
+                            <input type="email" id="email-2" name="email" required>
+                        </div><br>
+                        <div>
+                            <label for="comentario-2">Comentario:</label>
+                            <textarea id="comentario-2" name="comentario" rows="4" required></textarea>
+                        </div><br>
+                        <div>
+                            <input type="checkbox" id="politica-2" name="politica" required>
+                            <label for="politica-2">Acepto la política de privacidad</label>
+                        </div><br>
+                        <button type="submit">Enviar comentario</button>
+                    </form>
+                </fieldset>
+            </section>
+        </article>
+
+        <hr>
+
+        <article id="noticia-3">
+            <header>
+                <h2>Estrategia de copias de seguridad: La regla 3-2-1 para proteger tus datos</h2>
+                <p>Publicado el <time datetime="2026-10-20">20 de octubre de 2026</time> por <strong>Javier Gabarrón</strong></p>
+            </header>
+
+            <section>
+                <h3>Fundamentos de la regla 3-2-1</h3>
+                <p>Para mitigar riesgos de ransomware o fallos de hardware, es vital implementar la regla 3-2-1: Mantener al menos 3 copias de tus datos, almacenadas en 2 medios o soportes diferentes, con 1 de ellas fuera de las instalaciones (off-site o en la nube).</p>
+                <p>
+                    <a href="https://www.hycu.com/es/blog/3-2-1-backup-rule-explained-how-it-works-why-it-matters" target="_blank">
+                        <img src="img/servidor-nas.jpg" height="300" alt="Servidor NAS y almacenamiento de respaldo">
+                    </a>
+                </p>
+            </section>
+
+            <section>
+                <h3>Automatización y recuperación</h3>
+                <p>Configurar copias de seguridad automatizadas y programar simulacros periódicos de restauración garantiza que los datos no solo estén respaldados, sino que sean verdaderamente recuperables ante cualquier incidente crítico.</p>
+                <p>
+                    <a href="https://spindatos.com/como-realizar-pruebas-de-restauracion-efectivas/" target="_blank">
+                        <img src="img/TECSENS_3-2-1Backup-20-1-1024x577.png" height="300" alt="Imagen nube y recuperación de datos">
+                    </a>
+                </p>
+            </section>
+
+            <section>
+                <fieldset>
+                    <legend>Deja tu comentario</legend>
+                    <form>
+                        <div>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div><br>
+                        <div>
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div><br>
+                        <div>
+                            <label for="comentario">Comentario:</label>
+                            <textarea id="comentario" name="comentario" rows="4" required></textarea>
+                        </div><br>
+                        <div>
+                            <input type="checkbox" id="politica" name="politica" required>
+                            <label for="politica">Acepto la política de privacidad</label>
+                        </div><br>
+                        <button type="submit">Enviar comentario</button>
+                    </form>
+                </fieldset>
+            </section>
+        </article>
+    </main>
+
+    <aside>
+        <h2>Enlaces de interés y documentación</h2>
+        <ul>
+            <li><a href="https://www.debian.org" target="_blank">Documentación oficial Debian</a></li>
+            <li><a href="https://access.redhat.com" target="_blank">Portal RedHat Enterprise Linux</a></li>
+            <li><a href="https://www.cisco.com" target="_blank">Recursos de Networking Cisco</a></li>
+            <li><a href="https://kubernetes.io/docs/" target="_blank">Documentación de Kubernetes</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>2026 Javier Gabarrón. Todos los derechos reservados.</p>
+        <p><a href="#header">Volver arriba</a></p>
+    </footer>
+</body>
+</html>
