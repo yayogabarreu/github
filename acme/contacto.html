@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecanismos marca Acme</title>
+    <style>        
+        body {
+            font-family: Sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: grey;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            color: violet;
+            text-align: center;
+            padding: 14px 16px;
+        }
+        nav li a:hover {
+            background-color: lightblue;
+        }
+        h2 {
+            padding: 20px;
+        }
+        form {
+            padding: 20px;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Contacto - Mecanismos Acme</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="ubicacion.html">Ubicación</a></li>
+            <li><a href="equipo.html">Equipo</a></li>
+        </ul>
+    </nav>
+    </header>
+    <h2>Contacto</h2>
+    <form>
+        <fieldset>
+            <legend>Formulario de contacto</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required><br><br>
+
+            <label for="tema">Eliga un tema:</label>
+            <input type="radio" name="tema" value="temaexplosivo"> Explosivo
+            <input type="radio" name="tema" value="temaartefacto"> Artefacto
+            <input type="radio" name="tema" value="temaherramientas"> Herramientas
+            <input type="radio" name="tema" value="temaotro"> Otro <br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escriba aquí lo que necesita" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
